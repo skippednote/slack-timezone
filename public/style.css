@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-x: scroll;
+}
+
+body {
+	font-family: lato, sans-serif;
+	font-size: 14px;
+	width: 100%;
+}
+
+.app > div {
+	display: flex;
+	flex-flow: strech;
+}
+
+
+ul {
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+
+}
+.container {
+	padding: 1rem .8rem;
+	margin-top: 0;
+}
+
+li {
+	margin-bottom: 1rem;
+}
+
+img {
+	border-radius: 100%;
+}
+
+.person__item__name,
+.person__item__username {
+	margin: 0;
+}
+
+.person__item__name {
+	font-weight: 700;
+	-webkit-font-smoothing: antialiased;
+}
+
+.person__item__username {
+	font-size: 12px;
+}
+
+.day .zone__time {
+	color: white;
+}
+
+
+.night {
+	background: #222C3B;
+	color: white;
+}
+
+.zone__time {
+	font-size: 110%;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
